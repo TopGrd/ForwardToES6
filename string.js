@@ -4,24 +4,30 @@
  * @Email:  topgrd@outlook.com
  * @Project: ES6
  * @Last modified by:   Li'Zhuo
- * @Last modified time: 2016-05-14 23:30:53
+ * @Last modified time: 2016-05-15 00:37:58
  */
 
-//method includes and repeat
+// method includes and repeat
 const name = 'jack slow fuck';
 const nickName = 'jack';
 if (name.includes(nickName)) {
     console.log('hello')
 }
 
+// method startWith and endWith
+console.log(name.startsWith('jack'));
+console.log(name.endsWith('fuck'));
+console.log(name.startsWith('jack', 6));
+console.log(name.startsWith('slow', 5));
+
 name.repeat(3); // return 'jack slow fuckjack slow fuckjack slow fuck'
 
 /************模板字符串**********/
 
-//不需要转义
+// 不需要转义
 let myName = `jack say "she is stupid", but i feel that he is a real fool.`;
 
-//插入变量
+// 插入变量
 const apple = 'Tiger';
 const age = 13;
 
@@ -33,5 +39,10 @@ this
 stupid
 guy`;
 
-//内部表达式
+// 内部表达式
 const date = `today is ${new Date()}`;
+
+// 字符串遍历
+for (let m of apple) {
+    console.log(m);
+}
