@@ -4,7 +4,7 @@
  * @Email:  topgrd@outlook.com
  * @Project: ES6
  * @Last modified by:   Li'Zhuo
- * @Last modified time: 2016-05-15 00:37:58
+ * @Last modified time: 2016-05-15 19:58:18
  */
 
 // method includes and repeat
