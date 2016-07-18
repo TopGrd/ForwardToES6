@@ -4,7 +4,7 @@
  * @Email:  topgrd@outlook.com
  * @Project: ES6
  * @Last modified by:   Li'Zhuo
- * @Last modified time: 2016-05-17 23:05:44
+ * @Last modified time: 2016-07-18 19:54:12
  */
 
 // method Array.from 将类数组转成新的数组
@@ -20,12 +20,17 @@ Array.from([1, 2, 3], (x) => x * x);
 
 // Array.of 返回参数组成的数组
 Array.of(3, 32, 1);
-
-function arrayOf() {
+/**
+ * [arrayOf description]
+ * @return {[type]} [description]
+ */
+/*function arrayOf() {
     return [].slice.call(arguments);
 }
+*/
+
 // 返回第一个符合毁掉函数条件的数组成员
-[1, -4, -5, 10].find((n) => n < 0) // -4
+[1, -4, -5, 10].find((n) => n < 0); // -4
 
 // fill
 [1, 2, 3].fill(7); // [7, 7, 7]

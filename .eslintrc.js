@@ -3,8 +3,8 @@
  * @Date:   2016-05-04 13:19:20
  * @Email:  topgrd@outlook.com
  * @Project: ES6
- * @Last modified by:   TopGrd
- * @Last modified time: 2016-05-04 13:24:30
+ * @Last modified by:   Li'Zhuo
+ * @Last modified time: 2016-07-18 19:50:15
  */
 
 module.exports = {
@@ -32,6 +32,7 @@ module.exports = {
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "no-console": 0
     }
 };
