@@ -4,7 +4,7 @@
  * @Email:  topgrd@outlook.com
  * @Project: ES6
  * @Last modified by:   Li'Zhuo
- * @Last modified time: 2016-07-18 19:50:15
+ * @Last modified time: 2016-07-19 21:13:39
  */
 
 module.exports = {
@@ -24,10 +24,6 @@ module.exports = {
         "linebreak-style": [
             "error",
             "windows"
-        ],
-        "quotes": [
-            "error",
-            "single"
         ],
         "semi": [
             "error",

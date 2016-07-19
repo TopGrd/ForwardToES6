@@ -3,8 +3,8 @@
  * @Date:   2016-05-04 12:00:12
  * @Email:  topgrd@outlook.com
  * @Project: ES6
- * @Last modified by:   TopGrd
- * @Last modified time: 2016-05-04 13:26:54
+ * @Last modified by:   Li'Zhuo
+ * @Last modified time: 2016-07-19 21:14:54
  */
 
 let foo = ['jack', 'mike'];
@@ -30,11 +30,11 @@ Person.prototype.prefix = function (arr) {
 };
 
 //like follow function
-function Person(name) {
+function Person2(name) {
     this.name = name;
 }
 
-Person.prototype.prefix = function (arr) {
+Person2.prototype.prefix = function (arr) {
     var _this = this;
 
     return arr.map(function (x) {

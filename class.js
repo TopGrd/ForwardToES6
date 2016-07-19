@@ -37,7 +37,7 @@ console.log(Man.prototype.__proto__); // Object
 // 原生构造函数的继承
 class MyArray extends Array {
     constructor(...args) {
-        super(...args)
+        super(...args);
     }
 
     sayHi() {
@@ -84,7 +84,7 @@ class StaticDemo {
 
 class ChildStatic extends StaticDemo {
     constructor() {
-
+        super();
     }
 }
 
