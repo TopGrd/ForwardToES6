@@ -1,2 +1,2 @@
 # ForwardToES6
-ES6 
+ES6
